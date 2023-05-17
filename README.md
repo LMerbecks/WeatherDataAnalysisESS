@@ -2,7 +2,7 @@
 Analysis of hystorical weather data for the city of Essen, Germany. Goal: Find pdf of four different weather parameters.
 
 # Detailed Decription
-The goal of this project is to analyse data from the climate data center of the German weather service (Deutscher Wetterdienst [website](dwd.de)) for a weather station in Essen Germany[^WeatherDataSource]. Four weather parameters should get investigated:
+The goal of this project is to analyse data from the Climate Data Center (CDC, [link](cdc.dwd.de/portal))  of the German weather service (Deutscher Wetterdienst, DWD, [link](dwd.de)) for a weather station in Essen Germany[^WeatherDataSource]. Four weather parameters should get investigated:
 
 1. Percipation in [mm]
 2. cloud coverage in [Okta]
@@ -12,7 +12,7 @@ The goal of this project is to analyse data from the climate data center of the 
 The investigation aims on a yearly statistical forecast of the parameters. For percipation the analysis should result in a bar graph, that plots the average percipation for a selected timespan. A problem with the underlying data set is that it will have some "drift" due to climate change. The ultimate goal is to estimate probability density functions (pdf) for all of the named parameters from the dataset.
 
 # (Planned) Process
-- [ ] open github repository
+- [x] open github repository
 - [ ] run following steps for sunshine duration first
 - [ ] read data from raw csvs
 - [ ] postprocess data, a timescale that is independent of actual year the data was recorded must be found probably based on the number 12, also faulty data must be filtered
