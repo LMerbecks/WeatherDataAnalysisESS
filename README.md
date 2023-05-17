@@ -12,14 +12,14 @@ The goal of this project is to analyse data from the climate data center of the 
 The investigation aims on a yearly statistical forecast of the parameters. For percipation the analysis should result in a bar graph, that plots the average percipation for a selected timespan. A problem with the underlying data set is that it will have some "drift" due to climate change. The ultimate goal is to estimate probability density functions (pdf) for all of the named parameters from the dataset.
 
 # (Planned) Process
--[ ] open github repository
--[ ] run following steps for sunshine duration first
--[ ] read data from raw csvs
--[ ] postprocess data, a timescale that is independent of actual year the data was recorded must be found probably based on the number 12, also faulty data must be filtered
--[ ] calculate mean for lowest time resolution (hours)
--[ ] plot data as a bar graph, this is a preliminary result
--[ ] estimate probability density function in two dimensions
--[ ] adapt to other parameters
+- [ ] open github repository
+- [ ] run following steps for sunshine duration first
+- [ ] read data from raw csvs
+- [ ] postprocess data, a timescale that is independent of actual year the data was recorded must be found probably based on the number 12, also faulty data must be filtered
+- [ ] calculate mean for lowest time resolution (hours)
+- [ ] plot data as a bar graph, this is a preliminary result
+- [ ] estimate probability density function in two dimensions
+- [ ] adapt to other parameters
 
 
 # References
