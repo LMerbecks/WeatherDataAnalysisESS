@@ -11,6 +11,8 @@ The goal of this project is to analyse data from the Climate Data Center (CDC, [
 
 The investigation aims on a yearly statistical forecast of the parameters. For percipation the analysis should result in a bar graph, that plots the average percipation for a selected timespan. A problem with the underlying data set is that it will have some "drift" due to climate change. The ultimate goal is to estimate probability density functions (pdf) for all of the named parameters from the dataset.
 
+We definitely need solar power per m^2 
+
 # (Planned) Process
 - [x] open github repository
 - [ ] run following steps for sunshine duration first
